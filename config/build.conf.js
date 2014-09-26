@@ -20,6 +20,12 @@
   },
   optimize: 'none',
   cjsTranslate: true,
+  uglify2: {
+    compress: {
+      unsafe: true
+    },
+    mangle: true
+  },
   wrap: {
     startFile: 'wrap-start.frag',
     endFile: 'wrap-end.frag'
